@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	XML
-%define	pnam	DOMHandler
+%define		pdir	XML
+%define		pnam	DOMHandler
 Summary:	DOMHandler - implements a call-back interface to DOM
 Summary(pl):	DOMHandler - implementacja interfejsu callbacków do DOM
 Name:		perl-XML-DOMHandler
