@@ -8,7 +8,7 @@ Summary:	DOMHandler - Implements a call-back interface to DOM
 Summary(pl):	DOMHandler - implementacja interfejsu callbacków do DOM
 Name:		perl-XML-DOMHandler
 Version:	1.0
-Release:	2
+Release:	3
 License:	?
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
