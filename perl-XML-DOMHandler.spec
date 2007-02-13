@@ -6,7 +6,7 @@
 %define		pdir	XML
 %define		pnam	DOMHandler
 Summary:	DOMHandler - implements a call-back interface to DOM
-Summary(pl.UTF-8):   DOMHandler - implementacja interfejsu callbacków do DOM
+Summary(pl.UTF-8):	DOMHandler - implementacja interfejsu callbacków do DOM
 Name:		perl-XML-DOMHandler
 Version:	1.0
 Release:	4
