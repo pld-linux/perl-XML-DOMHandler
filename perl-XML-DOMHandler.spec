@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	XML
 %define		pnam	DOMHandler
+%include	/usr/lib/rpm/macros.perl
 Summary:	DOMHandler - implements a call-back interface to DOM
 Summary(pl.UTF-8):	DOMHandler - implementacja interfejsu callbacków do DOM
 Name:		perl-XML-DOMHandler
@@ -14,11 +14,12 @@ License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	6dd4dcfed53eb23976c82d097225b430
+URL:		http://search.cpan.org/dist/XML-DOMHandler/
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl-XML-LibXML
 %endif
-BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
