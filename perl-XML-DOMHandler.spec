@@ -4,7 +4,6 @@
 
 %define		pdir	XML
 %define		pnam	DOMHandler
-%include	/usr/lib/rpm/macros.perl
 Summary:	DOMHandler - implements a call-back interface to DOM
 Summary(pl.UTF-8):	DOMHandler - implementacja interfejsu callbacków do DOM
 Name:		perl-XML-DOMHandler
